@@ -23,12 +23,30 @@
 public class ControladorComando {
     
  public ControladorComando() {
+     
  }
 
- public void Escribir(){}
+ public void EscribirCadena(){
  
+  
+ 
+ }
+ 
+ public void EscribirCadenaOrdenada(){}
+ 
+ public void EscribirNumPositivo(){}
+ 
+ public void EscribirNumPositivoReq(){}
+  
  public void Guardar(){
  
+  
+ 
+ }
+ 
+ public void VisualizarArchivo(){
+ 
+  
   
  
  }

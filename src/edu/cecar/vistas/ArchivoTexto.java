@@ -33,7 +33,7 @@ public class ArchivoTexto {
     
  public String LeerScript(String archivo){
   String Script = null;
-        Script = Script;
+        
      try {
                  
       BufferedReader bufferedReader = new BufferedReader(new FileReader(archivo));
