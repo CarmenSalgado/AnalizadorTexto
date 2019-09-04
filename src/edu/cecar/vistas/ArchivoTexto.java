@@ -31,9 +31,9 @@ public class ArchivoTexto {
     }
     
     
- public String LeerScript(String archivo){
+ public static String LeerScript(String archivo){
   String Script = null;
-        Script = Script;
+        
      try {
                  
       BufferedReader bufferedReader = new BufferedReader(new FileReader(archivo));
@@ -47,7 +47,7 @@ public class ArchivoTexto {
         Script =Provicional;
      } catch (Exception e) {
          
-         System.out.println("No Hay Archivo");   
+         System.out.println("No Hay Archivo: "+ e);   
      }
  return Script;
  }

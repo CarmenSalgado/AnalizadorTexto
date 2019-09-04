@@ -1,3 +1,4 @@
+package edu.cecar.controladores;
 /**
 *
 * Clase: Expression class is undefined on line 3, column 12 in Templates/Classes/Class.java.
@@ -23,14 +24,33 @@
 public class ControladorComando {
     
  public ControladorComando() {
+     
  }
 
- public void Escribir(){}
+ public void EscribirCadena(){
  
+  
+ 
+ }
+ 
+ public void EscribirCadenaOrdenada(){}
+ 
+ public void EscribirNumPositivo(){}
+ 
+ public void EscribirNumPositivoReq(){}
+  
  public void Guardar(){
  
   
  
  }
+ 
+ public void VisualizarArchivo(){
+ 
+  
+  
+ 
+ }
+
 
 }
